@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-standard"
+  ],
+  "rules": {
+    "prefer-const": true,
+    "vue/no-v-html": false 
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "dist/**",
+      "dist.js/**",
+      ".nuxt/**",
+      "tests/**"
+    ]
+  }
+}
